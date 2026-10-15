@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172b70">
+  <title>Кванториум — заявка на занятия</title><link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Кванториум — главная"><img src="/img/kvantorium-logo.jpg" alt="Эмблема Кванториума"><span><small>ДЕТСКИЙ ТЕХНОПАРК</small><strong>КВАНТОРИУМ</strong></span></a>
+  <div class="header-right"><a class="official-link" href="https://ok36-yar.edu.yar.ru/kvantorium/obrazovatelnie_programmi.html" target="_blank" rel="noopener">Образовательные программы ↗</a><span class="work-hours">Пн–Пт · 10:45–18:25</span></div>
+</header>
+<main>
+<section class="hero">
+ <div class="hero-copy"><p class="eyebrow"><span></span> ДЕТСКИЙ ТЕХНОПАРК</p><h1>Идеи становятся<br><span>технологиями.</span></h1>
+ <p class="hero-text">Выбери интересующее направление и оставь заявку. Мы учтём удобные дни и время, чтобы понять, когда можно сформировать новую группу.</p>
+ <a class="button button-light" href="#application">Оставить заявку <span>↓</span></a></div>
+ <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="gear">⚙</div><div class="node node-green"></div><div class="node node-orange"></div><div class="node node-blue"></div><div class="node node-red"></div><div class="art-caption">УЧИСЬ · ИЗУЧАЙ · СОЗДАВАЙ</div></div>
+</section>
+<section class="directions-section" id="directions">
+ <div class="directions-heading"><p class="eyebrow">ТЕХНОЛОГИИ В ТВОИХ РУКАХ</p><h2>Выбирай, что создавать</h2><p>Здесь можно не просто изучать технологии, а пробовать их в деле.</p></div>
+ <div class="direction-cards">
+  <article class="direction-card"><span class="direction-icon">🤖</span><h3>Робототехника</h3><p>Оживи свои конструкторы и научи их думать.</p></article>
+  <article class="direction-card"><span class="direction-icon">🖨️</span><h3>3D-печать и прототипирование</h3><p>Нарисуй на компе, вырежи на ЧПУ. Магия? Почти!</p></article>
+  <article class="direction-card"><span class="direction-icon">🚁</span><h3>Квадрокоптеры</h3><p>Подними свою технику в небо.</p></article>
+  <article class="direction-card"><span class="direction-icon">💻</span><h3>Программирование C++</h3><p>Код, который заставляет железо работать.</p></article>
+ </div>
+ <p class="directions-note">И это ещё не всё — впереди другие инженерные, научные и цифровые проекты!</p>
+</section>
+<section class="intro-strip">
+ <div><span class="accent-dot dot-red"></span><strong>Исследуй</strong><small>задавай вопросы</small></div>
+ <div><span class="accent-dot dot-blue"></span><strong>Создавай</strong><small>пробуй на практике</small></div>
+ <div><span class="accent-dot dot-green"></span><strong>Развивайся</strong><small>превращай идеи в проекты</small></div>
+</section>
+<section class="form-section" id="application">
+ <div class="section-intro"><p class="eyebrow">ШАГ К НОВЫМ ОТКРЫТИЯМ</p><h2>Заявка на занятия</h2>
+ <p>Заполни форму. Данные сохранятся, а когда наберётся достаточно заявок с похожими пожеланиями по направлению, дню и времени, ответственному сотруднику будет отправлено письмо.</p></div>
+ <form id="application-form" class="application-form">
+  <div class="field"><label for="surname">Фамилия *</label><input id="surname" name="surname" maxlength="100" required autocomplete="family-name" placeholder="Твоя фамилия"></div>
+  <div class="field"><label for="name">Имя *</label><input id="name" name="name" maxlength="100" required autocomplete="given-name" placeholder="Твоё имя"></div>
+  <div class="field"><label for="contact">Контакт для связи *</label><input id="contact" name="contact" maxlength="200" required placeholder="Телефон или электронная почта"></div>
+  <div class="field"><label for="age">Возраст *</label><input id="age" name="age" type="number" min="4" max="100" required placeholder="Например, 14"></div>
+  <div class="field full"><label for="club">Какое направление интересует? *</label><select id="club" name="club" required>
+   <option value="">Выбери программу</option>
+   <optgroup label="Рабочие программы по учебным предметам">
+    <option>Химия — 8 класс</option><option>Химия — 9 класс</option><option>Химия (базовый уровень) — 10 класс</option><option>Химия (базовый уровень) — 11 класс</option><option>Химия (углублённый уровень) — 10 класс</option><option>Химия (углублённый уровень) — 11 класс</option>
+    <option>Информатика — 5 класс</option><option>Информатика — 7–9 классы</option><option>Информатика (базовый уровень) — 10–11 классы</option><option>Информатика (углублённый уровень) — 11 класс</option>
+    <option>Биология — 5 класс</option><option>Биология — 6 класс</option><option>Биология — 7 класс</option><option>Биология — 8 класс</option><option>Биология — 9 класс</option><option>Биология (базовый уровень) — 10 класс</option><option>Биология (углублённый уровень) — 10 класс</option><option>Биология (базовый уровень) — 11 класс</option><option>Биология (углублённый уровень) — 11 класс</option>
+    <option>География — 5–9 классы</option><option>География (базовый уровень) — 10–11 классы</option><option>Физика — 7–9 классы</option><option>Физика (базовый уровень) — 10–11 классы</option><option>Физика (углублённый уровень) — 10–11 классы</option>
+   </optgroup>
+   <optgroup label="Дополнительные программы — естественно-научное направление">
+    <option>Трудные вопросы органической химии</option><option>Решение расчётных и экспериментальных задач по химии</option><option>Основы химического анализа</option><option>Многоликая биология</option><option>Практическая физиология</option><option>Машина Голдберга</option><option>Физика в задачах и экспериментах</option><option>Решение расчётных и экспериментальных задач по физике</option><option>Занимательная астрономия</option>
+   </optgroup>
+   <optgroup label="Дополнительные программы — научно-техническое направление">
+    <option>Графический дизайн в Gimp</option><option>3D моделирование в среде КОМПАС-3D</option><option>Инженерное моделирование</option><option>Робототехника – Arduino</option><option>Основы робототехники</option><option>Соревновательная робототехника на платформе Arduino: от сборки до программирования</option><option>Scratch программирование</option><option>Программирование на Python (Часть 1)</option><option>Программирование на Python. Базовый уровень (Часть 2)</option><option>Изучение языка C++ на основе микроконтроллера</option><option>Электронные таблицы</option><option>Программирование в среде КуМир</option><option>Создание компьютерных игр на Python и в браузере</option><option>Квадрокоптеры</option><option>Беспилотные летательные аппараты</option>
+   </optgroup>
+  </select><small>В списке представлены рабочие программы и дополнительные занятия.</small></div>
+  <fieldset class="field days-field full"><legend>В какие дни удобно заниматься? *</legend><div class="day-options">
+   <label><input type="checkbox" name="days" value="Понедельник"><span>Пн</span></label><label><input type="checkbox" name="days" value="Вторник"><span>Вт</span></label><label><input type="checkbox" name="days" value="Среда"><span>Ср</span></label><label><input type="checkbox" name="days" value="Четверг"><span>Чт</span></label><label><input type="checkbox" name="days" value="Пятница"><span>Пт</span></label>
+  </div></fieldset>
+  <div class="field"><label for="preferredTime">Во сколько удобно начать? *</label><select id="preferredTime" name="preferredTime" required></select><small>Занятие длится 40 минут. Начало можно выбрать только в рабочее время, с учётом продолжительности занятия. Формат времени — 24 часа. При подборе группы учитывается разница до ±1 часа.</small></div>
+  <div class="field"><label for="comment">Комментарий</label><textarea id="comment" name="comment" maxlength="1500" rows="3" placeholder="Опыт, пожелания или вопросы"></textarea></div>
+  <div class="form-bottom"><p>Поля со звёздочкой обязательны.</p><button class="button button-dark" type="submit">Отправить заявку <span>↗</span></button></div>
+  <div id="form-message" class="form-message full" role="status" aria-live="polite"></div>
+ </form>
+</section>
+</main>
+<footer><span>КВАНТОРИУМ · Пн–Пт, 10:45–18:25</span><a href="https://ok36-yar.edu.yar.ru/kvantorium/obrazovatelnie_programmi.html" target="_blank" rel="noopener">Официальные образовательные программы ↗</a></footer>
+<script src="/js/form.js"></script>
+</body></html>

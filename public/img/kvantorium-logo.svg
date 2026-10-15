@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="140" viewBox="0 0 620 140">
+<rect width="620" height="140" rx="8" fill="#ffffff"/>
+<g transform="translate(70 70)" fill="none" stroke-width="6" stroke-linecap="round">
+ <path d="M-9 -37 C-36 -49 -49 -20 -34 -4 C-21 9 -4 2 1 -11" stroke="#e94b45"/>
+ <path d="M9 -37 C36 -49 49 -20 34 -4 C21 9 4 2 -1 -11" stroke="#1687c9"/>
+ <path d="M-9 37 C-36 49 -49 20 -34 4 C-21 -9 -4 -2 1 11" stroke="#e94b45"/>
+ <path d="M9 37 C36 49 49 20 34 4 C21 -9 4 -2 -1 11" stroke="#39a95b"/>
+ <circle cx="0" cy="0" r="12" stroke="#304b94" stroke-width="5"/>
+ <circle cx="-27" cy="-22" r="5" fill="#39a95b" stroke="none"/><circle cx="27" cy="-22" r="5" fill="#e94b45" stroke="none"/>
+ <circle cx="-27" cy="22" r="5" fill="#1687c9" stroke="none"/><circle cx="27" cy="22" r="5" fill="#39a95b" stroke="none"/>
+</g>
+<text x="145" y="54" font-family="Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="3" fill="#27345c">ДЕТСКИЙ ТЕХНОПАРК</text>
+<text x="145" y="94" font-family="Arial, sans-serif" font-size="35" font-weight="800" letter-spacing="2" fill="#263f86">КВАНТОРИУМ</text>
+</svg>
